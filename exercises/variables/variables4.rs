@@ -1,8 +1,7 @@
-// variables4.rs
 // Make me compile! Scroll down for hints :)
 
 fn main() {
-    let x: i32;
+    let x: i32 = 10;
     println!("Number {}", x);
 }
 

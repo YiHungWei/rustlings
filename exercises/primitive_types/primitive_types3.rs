@@ -3,10 +3,11 @@
 // Scroll down for hints!
 
 fn main() {
-    let a = ???
+    let a = ["my str"; 101];
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
+        println!("element 0: {}", a[0]);
     } else {
         println!("Meh, I eat arrays like that for breakfast.");
     }

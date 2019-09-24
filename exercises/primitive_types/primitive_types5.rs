@@ -4,9 +4,12 @@
 
 fn main() {
     let cat = ("Furry McFurson", 3.5);
-    let /* your pattern here */ = cat;
+    let (name, age) = (cat.0, cat.1);
+    let first = &cat.0[0..5];
+    let last = &cat.0[6..];
 
     println!("{} is {} years old.", name, age);
+    println!("first name: {}, last name: {}", first, last);
 }
 
 

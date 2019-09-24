@@ -6,7 +6,9 @@
 mod tests {
     #[test]
     fn you_can_assert_eq() {
-        assert_eq!();
+        let a : i32 = 5;
+        let b : i32 = 5;
+        assert_eq!(b, a);
     }
 }
 
